@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Match The Cards Game Javascript</title>
+  </head>
+  <body>
+    <div class="welcome-message-container">
+      <div>
+        <h2>Welcome To Match The Cards Game</h2>
+        <p>This Game is built using html, css and vanilla Javascript</p>
+        <h4>Pick one of the following options to set your time-limit</h4>
+        <div>
+          <span class="time-limit-container">
+            <span class="time-5">5</span>
+            <span class="time-10">10</span>
+            <span class="time-15">15</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <span><h1>javascript pairs game</h1></span>
+        <span><p>click any card to begin</p></span>
+        <span
+          ><h3
+            ><span class="counter">
+              <span class="minute">0</span>:<span class="seconds">00</span>
+            </span></h3
+          ></span
+        >
+      </header>
+      <div class="row">
+        <div class="col">
+          <div class="img-cols" data-id="1"></div>
+          <div class="img-cols" data-id="2"></div>
+          <div class="img-cols" data-id="3"></div>
+          <div class="img-cols" data-id="4"></div>
+          <div class="img-cols" data-id="5"></div>
+          <div class="img-cols" data-id="6"></div>
+          <div class="img-cols" data-id="7"></div>
+          <div class="img-cols" data-id="8"></div>
+          <div class="img-cols" data-id="9"></div>
+          <div class="img-cols" data-id="0"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="win-modal">
+      <div class="modal-info">
+        <div class="load">
+          <div class="loader-container">
+            <div class="loader">
+              <div class="loader-middle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="user-input">
+          <div class="user-time">
+            <h4>you finished in <span class="game-time">2 minutes </span></h4>
+            <h2>You Won!!!!</h2>
+          </div>
+
+          <h3>would you like to play again?</h3>
+          <span>
+            <button class="yesBtn">yes</button>
+            <button class="noBtn">no</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
