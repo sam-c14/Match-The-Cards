@@ -1,5 +1,4 @@
 # Match-The-Cards
 A Simple cards game to help pass time or relax.
-Click the link below to play 
-https://sammy-cards.vercel.app
-Have fun!!!
+To Play just click on the cards and match two cards with the same image before th time runs out\
+Enjoy!!!
